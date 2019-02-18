@@ -81,7 +81,7 @@ local function run(msg, matches)
  if string.match then
      local command = 'git pull'
    text = run_bash(command)
-   local text = text..'Updates were applied GitHub\n@BeatBot_Team'
+   local text = text..'Updates were applied'
     return text
   end
 end
